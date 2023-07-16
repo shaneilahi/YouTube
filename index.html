@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="stylee/styles.css">
+  </head>
+  <body>
+    
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="images/hamburger-menu.svg">
+        <img class="yt-logo" src="images/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="images/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="images/voice-search-icon.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        
+      </div>
+      <div class="right-section">
+        <div class="upload">
+          <img class="upload-icon" src="images/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps">
+          <img class="yt-apps-icon" src="images/youtube-apps.svg">
+          <div class="tooltip">YouTubee AA\pps</div>
+        </div>
+        <div class="notifications">
+          <img class="notifications-icon" src="images/notifications.svg">
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="current-user-picture" src="channel-logos/my-channel.jpeg">
+      </div>
+    </header>   
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="nav/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="nav/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="nav/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="nav/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="nav/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="nav/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <!-- 2 Vertical layer -->
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+              <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            </a>
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <!-- 2 Horizontal layer -->
+            <div class="channel-pic">
+              <div class="channel-logo-tooltip">
+                <a href="https://www.youtube.com/@mkbhd">
+                  <img class="profile-pic" src="channel-logos/channel-1.jpeg">
+                </a>
+                <div class="tooltip">
+                  <img class="tooltip-logo" src="channel-logos/channel-1.jpeg">
+                  <div class="tooltip-stats">
+                    <p class="tooltip-channel">Marque Brownlee</p>
+                    <p class="tooltip-subs">15M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="video-info">
+              <!-- 3 Vertical layers -->
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY" class="video-link">Talking Tech and AI with Google CEO Sundar Pichai!</a>
+              </p>
+              <p class="video-author">
+                <a href="https://www.youtube.com/@mkbhd" class="channel-link">Marques Brownlee</a>
+              </p>
+              <p class="video-stats">3.4M views &#183; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-preview">
+          <!-- Vertical layer 1 -->
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+              <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+            </a>
+            <div class="video-time">8:22</div>
+          </div>
+          <!-- Vertical layer 2 -->
+          <div class="video-info-grid">
+            <!-- Horizontal Layer 1 -->
+            <div class="channel-pic">
+              <div class="channel-logo-tooltip">
+                <a href="https://www.youtube.com/@markiplier">
+                  <img class="profile-pic" src="channel-logos/channel-2.jpeg">
+                </a>
+                <div class="tooltip">
+                  <img class="tooltip-logo" src="channel-logos/channel-2.jpeg">
+                  <div class="tooltip-stats">
+                    <p class="tooltip-channel">Markiplier</p>
+                    <p class="tooltip-subs">155M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Horizontal layer 2 -->
+            <div class="video-info">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk" class="video-link">Try Not To Laugh Challenge #9</a>
+              </p>
+              <p class="video-author">
+                <a href="https://www.youtube.com/@markiplier" class="channel-link">Markiplier</a>
+              </p>
+              <p class="video-stats">19M views &#183; 4 years ago</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-preview">
+          <!-- Vertical layer 1 -->
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+              <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+            </a>
+            <div class="video-time">9:13</div>
+          </div>
+          <!-- Vertical layer 2 -->
+          <div class="video-info-grid">
+            <!-- Horizontal Layer 1 -->
+            <div class="channel-pic">
+              <a href="https://www.youtube.com/user/SSSniperWolf">
+                <img class="profile-pic" src="channel-logos/channel-3.jpeg">
+              </a>
+            </div>
+            <!-- Horizontal layer 2 -->
+            <div class="video-info">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w" class="video-link">Crazy Tik Toks Taken Moments Before DISASTER</a>
+              </p>
+              <p class="video-author">
+                <a href="https://www.youtube.com/user/SSSniperWolf" class="channel-link">SSSniperWolf</a>
+              </p>
+              <p class="video-stats">12M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+              <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+            </a>
+            <div class="video-time">22:09</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <a href="https://www.youtube.com/c/veritasium">
+                <img class="profile-pic" src="channel-logos/channel-4.jpeg">
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=094y1Z2wpJg" class="video-link">The Simplest Math Problem No One Can Solve - Collatz Conjecture</a>
+              </p>
+              <p class="video-author">
+                <a href="https://www.youtube.com/c/veritasium" class="channel-link">Veritasium</a>
+              </p>
+              <p class="video-stats">18M views &#183; 4 months ago</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+              <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+            </a>
+            <div class="video-time">11:17</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <a href="https://www.youtube.com/@CSDojo">
+                <img class="profile-pic" src="channel-logos/channel-5.jpeg">
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=86CQq3pKSUw" class="video-link">Kadane's Algorithm to Maximum Sum Subarray Problem</a>
+              </p>
+              <p class="video-author">
+                <a href="www.youtube.com/@CSDojo" class="channel-link">CS Dojo</a>
+              </p>
+              <p class="video-stats">519K views &#183; 5 years ago</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+              <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+            </a>
+            <div class="video-time">19:59</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <a href="https://www.youtube.com/@MrBeast">
+                <img class="profile-pic" src="channel-logos/channel-6.jpeg">
+              </a>
+              
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg" class="video-link">
+                  Anything You Can Fit In The Circle I’ll Pay For</a>
+              </p>
+              <p class="video-author">
+                <a href="https://www.youtube.com/@MrBeast" class="channel-link">MrBeast</a>
+              </p>
+              <p class="video-stats">141M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <script src="scripts/videos.js"></script>
+  </body>
+</html>
